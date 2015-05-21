@@ -47,10 +47,10 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 ===========================================================================
 ###  Steps involved in creating the tidy dataset
 
-- 1. Extract the zipped raw datasets.
-- 1. Run the script run_analysis.R uses dplyr package, the loading of which is included in the script.
-     Script assumes all the raw data- subjects, activities, train, test and features are present in the current working directory.
-     Script does the following:
+-  Extract the zipped raw datasets.
+-  Run the script run_analysis.R uses dplyr package, the loading of which is included in the script.
+   Script assumes all the raw data- subjects, activities, train, test and features are present in the current working directory.
+   Script does the following:
 	- a. Read the subject datasets and give its column a proper label for identification.
 	- b. Read the activity dataset which has codes 1-6 relating to each activity. Create a new column with the activity
 		name related to each code getting this from the activity labels data.
@@ -62,7 +62,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 	
 	- g. Repeat steps a to f for the test data.
 	- h. Merge the train and test datasets to create one dataset for analyses.
-- 1. The script run_analysis.R also performs the calculations, mentioned below,  to give the final output dataset. 
+-  The script run_analysis.R also performs the calculations, mentioned below,  to give the final output dataset. 
 
 
 ==============================================================================
@@ -96,14 +96,14 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ===================================================================================
 
-Notes: 
+### Notes: 
 ======
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-License:
+### License:
 ========
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
@@ -113,5 +113,5 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 =======
-# Getting-CleaningData
+### Getting-CleaningData
 >>>>>>> ad6ccbd3ba30d7d21e5fd4c64a29f60844e093e5
