@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 ==================================================================
-# Project Title
-## Human Activity Recognition Using Smartphones Dataset
-Version 1.0
+## Project Title
+### Human Activity Recognition Using Smartphones Dataset
+#### Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
@@ -11,7 +11,7 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 ==================================================================
-## Content of this page
+## Contents of this page
 - Experiment description
 - Raw data description
 - Steps involved in creating the tidy dataset
@@ -43,11 +43,12 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
                          different combinations of subjects & activities. It contains 561-feature vectors with 
 		         time and frequency domain variables. 30% of volunteers randomly partitioned as test.
 - Features data   :    A dataset giving the variable names of each feature.
+
 ===========================================================================
 ###  Steps involved in creating the tidy dataset
 
 - 1. Extract the zipped raw datasets.
-- 2. Run the script run_analysis.R uses dplyr package, the loading of which is included in the script.
+- 1. Run the script run_analysis.R uses dplyr package, the loading of which is included in the script.
      Script assumes all the raw data- subjects, activities, train, test and features are present in the current working directory.
      Script does the following:
 	- a. Read the subject datasets and give its column a proper label for identification.
@@ -61,7 +62,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 	
 	- g. Repeat steps a to f for the test data.
 	- h. Merge the train and test datasets to create one dataset for analyses.
-- 3. The script run_analysis.R also performs the calculations, mentioned below,  to give the final output dataset. 
+- 1. The script run_analysis.R also performs the calculations, mentioned below,  to give the final output dataset. 
 
 
 ==============================================================================
@@ -77,21 +78,21 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
   
    We are required to create a second, independent tidy data set with the average of each variable for each activity and each subject.
    To do this :
-	- Group the rows of the analyses dataset per subject per activity.
-	- Calculate the average of each column on this dataset.
-	- Store these averages in a second, independent tidy dataset.
+- Group the rows of the analyses dataset per subject per activity.
+- Calculate the average of each column on this dataset.
+- Store these averages in a second, independent tidy dataset.
 
 ==================================================================================
 ### Final output dataset description
 
-	- Each row displays - subject id, activity name, average of each feature measured, so a total of 88 columns for each row.
- 	- This dataset can be loaded into R and viewed with these commands : 
+- Each row displays - subject id, activity name, average of each feature measured, so a total of 88 columns for each row.
+ - This dataset can be loaded into R and viewed with these commands : 
 
 		data <- read.table("Project_mean_data.txt", header = TRUE) 
                 View(data)
 
-        - This is also included in the script "run_analysis.R". 
-	- Sourcing the script will ensure all steps from reading the raw data to outputting the final averages dataset.
+- This is also included in the script "run_analysis.R". 
+- Sourcing the script will ensure all steps from reading the raw data to outputting the final averages dataset.
 
 ===================================================================================
 
