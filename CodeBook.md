@@ -28,16 +28,16 @@ All the following variables are Averages of each measure per subject per activit
 
 ### Format for Variables description: Variable #; 	Variable Name; 	Domain;	Component;	Signal;	 Axis;  Value   
 
-3.  Mean..T..BodyAccel..Mean_X		Time domain;  	   Body motion component;   Accelerometer signal;     	X axis;   Mean 
-4.  Mean..T..BodyAccel..Mean_Y		Time domain;  	   Body motion component;   Accelerometer signal;     	Y axis;   Mean 
-5.  Mean..T..BodyAccel..Mean_Z		Time domain;  	   Body motion component;   Accelerometer signal;     	Z axis;   Mean 
-6.  Mean..T..BodyAccel..Std_X		Time domain;  	   Body motion component;   Accelerometer signal;     	X axis;   Standard deviation 
-7.  Mean..T..BodyAccel..Std_Y		Time domain;  	   Body motion component;   Accelerometer signal;     	Y axis;   Standard deviation 
-8.  Mean..T..BodyAccel..Std_Z		Time domain;  	   Body motion component;   Accelerometer signal;    	Z axis;   Standard deviation 
-9.  Mean..T..GravityAccel..Mean_X	Time domain;  	   Gravitational component; Accelerometer signal;     	X axis;   Mean 
-10. Mean..T..GravityAccel..Mean_Y	Time domain;  	   Gravitational component; Accelerometer signal;     	Y axis;   Mean 
-11. Mean..T..GravityAccel..Mean_Z	Time domain;  	   Gravitational component; Accelerometer signal;     	Z axis;   Mean 
-12. Mean..T..GravityAccel..Std_X	Time domain;  	   Gravitational component; Accelerometer signal;     	X axis;   Standard deviation 
+3.  Mean..T..BodyAccel..Mean_X	  	****		Time domain;  	   Body motion component;   Accelerometer signal;     	X axis;   Mean 
+4.  Mean..T..BodyAccel..Mean_Y		****		Time domain;  	   Body motion component;   Accelerometer signal;     	Y axis;   Mean 
+5.  Mean..T..BodyAccel..Mean_Z		****		Time domain;  	   Body motion component;   Accelerometer signal;     	Z axis;   Mean 
+6.  Mean..T..BodyAccel..Std_X		****		Time domain;  	   Body motion component;   Accelerometer signal;     	X axis;   Standard deviation 
+7.  Mean..T..BodyAccel..Std_Y		****		Time domain;  	   Body motion component;   Accelerometer signal;     	Y axis;   Standard deviation 
+8.  Mean..T..BodyAccel..Std_Z	   	****	 	Time domain;  	   Body motion component;   Accelerometer signal;    	Z axis;   Standard deviation 
+9.  Mean..T..GravityAccel..Mean_X   	****		Time domain;  	   Gravitational component; Accelerometer signal;     	X axis;   Mean 
+10. Mean..T..GravityAccel..Mean_Y   	****		Time domain;  	   Gravitational component; Accelerometer signal;     	Y axis;   Mean 
+11. Mean..T..GravityAccel..Mean_Z	****		Time domain;  	   Gravitational component; Accelerometer signal;     	Z axis;   Mean 
+12. Mean..T..GravityAccel..Std_X	****		Time domain;  	   Gravitational component; Accelerometer signal;     	X axis;   Standard deviation 
 13. Mean..T..GravityAccel..Std_Y	Time domain;  	   Gravitational component; Accelerometer signal;     	Y axis;   Standard deviation 
 14. Mean..T..GravityAccel..Std_Z	Time domain;  	   Gravitational component; Accelerometer signal;     	Z axis;   Standard deviation 
 15. Mean..T..BodyAccelJerk..Mean_X	Time domain;  	   Body motion component;   AccelerometerJerk signal; 	X axis;   Mean 
