@@ -89,7 +89,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 		data <- read.table("Project_mean_data.txt", header = TRUE) 
                 View(data)
 
-        - This is also included in the script run_analysis.R. 
+        - This is also included in the script "run_analysis.R". 
 	- Sourcing the script will ensure all steps from reading the raw data to outputting the final averages dataset.
 
 ===================================================================================
