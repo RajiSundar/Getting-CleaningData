@@ -1,5 +1,5 @@
-							DATA DICTIONARY - Human Activity Recognition Using Smartphones Dataset
-									  Averages of each measure of mean & standard deviation values per subject per activity
+						DATA DICTIONARY - Human Activity Recognition Using Smartphones Dataset
+					Averages of each measure of mean & standard deviation values per subject per activity
 
 
 
@@ -24,7 +24,7 @@ All Accelerometer signals in X, Y & Z axes are in standard gravity units 'g'.
 All angular velocity vectors measured by the Gyroscope units are radians/second.
 All the following variables are Averages of each measure per subject per activity and in the -1..+1  Numeric  range.
 
-#       Variable Name			  Domain		Component		Signal			 Axis	   Value   
+Format for Variables description: Variable #; 	Variable Name; 	Domain;	Component;	Signal;	 Axis;  Value   
 
 3.  Mean..T..BodyAccel..Mean_X		Time domain;  	   Body motion component;   Accelerometer signal;     	X axis;   Mean 
 4.  Mean..T..BodyAccel..Mean_Y		Time domain;  	   Body motion component;   Accelerometer signal;     	Y axis;   Mean 
